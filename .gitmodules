@@ -1,0 +1,4 @@
+[submodule "CoAP.NET"]
+	path = CoAP.NET
+	url = https://github.com/IoTSharp/CoAP.NET.git
+	branch = master

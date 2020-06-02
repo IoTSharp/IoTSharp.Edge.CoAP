@@ -48,9 +48,10 @@
     <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CoAP">
-      <Version>1.1.0</Version>
-    </PackageReference>
+    <ProjectReference Include="..\CoAP.NET\CoAP.NET\CoAP.NET.csproj">
+      <Project>{53202f4d-d461-4947-b3c6-bd661da65121}</Project>
+      <Name>CoAP.NET</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
